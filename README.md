@@ -35,7 +35,7 @@ Mathematical programs
 Beginner-level algorithms
 📈 Progress
 Programs completed: 10/ 100
-Days completed: 2 / 20
+Days completed: 2/ 20
 I will update this section as I progress through the challenge.
 
 
