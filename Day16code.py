@@ -8,3 +8,26 @@ if sorted(s1) == sorted(s2):
     print("The strings are anagrams.")
 else:
     print("The strings are not anagrams.")
+
+
+
+#code 77 ; Write a program to find the first non-repeating character in a string.
+s = input("Enter a string: ")
+
+counts = {}
+
+# Pass 1: count how many times each character appears
+for ch in s:
+    counts[ch] = counts.get(ch, 0) + 1
+
+# Pass 2: find the first character that appears only once
+result = None
+for ch in s:
+    if counts[ch] == 1:
+        result = ch
+        break  # stop at the first match
+
+if result is not None:
+    print("First non-repeating character:", result)
+else:
+    print("No non-repeating character found.")
