@@ -34,7 +34,7 @@ Pattern programs
 Mathematical programs
 Beginner-level algorithms
 📈 Progress
-Programs completed: 76/ 100
+Programs completed: 77/ 100
 Days completed: 15/ 20
 I will update this section as I progress through the challenge.
 
