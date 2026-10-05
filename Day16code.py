@@ -31,3 +31,42 @@ if result is not None:
     print("First non-repeating character:", result)
 else:
     print("No non-repeating character found.")
+
+
+
+#code 78 ; Write a program to replace all occurrences of a character with another character in a string.
+text = input("Enter a string: ")
+old_ch = input("Enter the character to replace: ")
+new_ch = input("Enter the new character: ")
+result = ""
+for ch in text:
+    if ch == old_ch:
+        result += new_ch
+    else:
+        result += ch
+print("Modified string:", result)
+print(text.replace(old_ch, new_ch))  
+
+
+
+#code 79 ; Write a program to toggle the case of each character in a string.
+str = input("Enter a string: ")
+result = ""
+for ch in str:
+    if ch.islower():
+        result += ch.upper()
+    elif ch.isupper():
+        result += ch.lower()
+    else:
+        result += ch
+print("Toggled string:", result)
+print(str.swapcase())
+
+
+# ARRAYS / LISTS ;
+
+# code 80; Write a program to read n elements into an array and print them.
+arr1=[1,5,6,45,67]
+print(arr1[4])
+
+
